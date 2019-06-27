@@ -1,0 +1,5 @@
++wait:
+  require>: job_a
+
++run:
+  sh>: bash failed_task.sh

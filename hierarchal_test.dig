@@ -1,0 +1,12 @@
++step1:
+  sh>: echo "step1"
+
++step2:
+  _parallel: true
+  +sub1:
+    sh>: echo "step 2-1"
+  +sub2:
+    sh>: echo "step 2-2"
+
++step3:
+  sh>: echo "step3"

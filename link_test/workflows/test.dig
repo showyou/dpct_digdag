@@ -1,0 +1,6 @@
+# vim: set ft=yaml
+_export:
+  !include : 'conf/env.dig'
+
++echo:
+  sh>: echo ${message}
